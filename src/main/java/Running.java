@@ -15,7 +15,6 @@ public class Running {
             Calculator calculator = new Calculator();
             double number1 = getNumber();
             char action = getAction();
-
             double number2 = getNumber();
 
             try {
@@ -53,7 +52,7 @@ public class Running {
             try {
                 System.out.println("Введите число. Делиметром числа должна быть точка :");
                 input = new Scanner(System.in).nextDouble();
-                if(input == Double.POSITIVE_INFINITY || input == Double.NEGATIVE_INFINITY){
+                if (input == Double.POSITIVE_INFINITY || input == Double.NEGATIVE_INFINITY) {
                     System.out.println("[ERROR] Вы ввели недопустимое значение. Попробуйте снова");
                     continue;
                 }
