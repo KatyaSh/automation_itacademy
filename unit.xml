@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="CollectionsSuite" verbose="1" >
+    <test name="test for array list" >
+        <classes>
+            <class name="utilities.MyArrayListTest" />
+        </classes>
+    </test>
+    <test name="test for stack">
+        <classes>
+            <class name="utilities.MyStackTest"/>
+        </classes>
+    </test>
+</suite>
