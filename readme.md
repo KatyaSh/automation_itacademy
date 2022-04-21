@@ -1,2 +1,1 @@
-- Change the path to the DB in class Connect
-- DB script is placed in  main/resources package
+Home work #6
