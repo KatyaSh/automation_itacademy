@@ -3,7 +3,7 @@
 <suite name="TestSuite" parallel="false">
     <test name="Functional" >
         <classes>
-            <class name="tests.CatalogTests" />
+            <class name="bdd.OnlinerTestsWithCucumber"/>
         </classes>
     </test>
 </suite>
