@@ -17,12 +17,12 @@ public class CatalogPage {
     }
 
     public List<String> getCatalogNavigationItems() {
-        List<String> catalogNavigationItems = $$("span[class='catalog-navigation-classifier__item-title-wrapper']").texts();
+        List<String> catalogNavigationItems = $$("span.catalog-navigation-classifier__item-title-wrapper").texts();
         return catalogNavigationItems;
     }
 
     public NavigationItems clickOn(String text) {
-        ElementsCollection resultLinks = $$("span[class='catalog-navigation-classifier__item-title-wrapper']");
+        ElementsCollection resultLinks = $$("span.catalog-navigation-classifier__item-title-wrapper");
         resultLinks.findBy(text(text)).click();
         return page(NavigationItems.class);
     }
