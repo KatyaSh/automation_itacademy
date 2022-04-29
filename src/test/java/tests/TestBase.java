@@ -5,8 +5,8 @@ import pageObjects.CatalogPage;
 
 public class TestBase {
     @BeforeMethod
-    public static CatalogPage onCatalogPage() {
+    public void onCatalogPage() {
         CatalogPage catalogPage = new CatalogPage();
-        return catalogPage.open();
+        catalogPage.open();
     }
 }
