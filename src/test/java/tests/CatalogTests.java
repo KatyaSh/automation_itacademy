@@ -3,6 +3,7 @@ package tests;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pageObjects.ProductsGrid;
+import pageObjects.CatalogPage;
 
 import java.util.List;
 
