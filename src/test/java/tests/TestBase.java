@@ -1,13 +1,15 @@
 package tests;
 
-import org.testng.annotations.BeforeMethod;
-import pageObjects.CatalogPage;
+import org.testng.annotations.BeforeClass;
+import rest.RestAssured;
+
+import static NavigationURL.Navigation.APPLICATION_URL;
 
 public class TestBase {
 
-    @BeforeMethod
-    public void onCatalogPage() {
-        CatalogPage catalogPage = new CatalogPage();
-        catalogPage.open();
+    @BeforeClass
+    public void login() {
+        RestAssured restAssured = new RestAssured();
+        restAssured.getResponse(APPLICATION_URL);
     }
 }

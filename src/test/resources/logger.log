@@ -1,9 +1,0 @@
-29-04-2022 21:36:43 INFO p.CatalogPage [main] catalog page is opened
-29-04-2022 21:36:44 WARN p.CatalogPage [main] logger warn test message
-29-04-2022 21:36:48 INFO p.CatalogPage [main] catalog page is opened
-29-04-2022 21:36:48 INFO p.CatalogPage [main] click on Top Category 
-29-04-2022 21:36:50 INFO p.NavigationItems [main] click On Left Menu Item
-29-04-2022 21:36:50 DEBUG p.ProductsGrid [main] logger debug test message
-29-04-2022 21:36:53 INFO p.CatalogPage [main] catalog page is opened
-29-04-2022 21:36:53 INFO p.CatalogPage [main] click on Top Category 
-29-04-2022 21:37:00 ERROR p.NavigationItems [main] test logger error message

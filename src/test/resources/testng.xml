@@ -4,7 +4,7 @@
 <suite name="TestSuite" >
     <test name="Functional" >
         <classes>
-            <class name="tests.CatalogTests" />
+            <class name="tests.Tests" />
         </classes>
     </test>
 </suite>
