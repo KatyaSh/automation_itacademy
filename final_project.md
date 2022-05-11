@@ -1,13 +1,13 @@
 # Test-Cases
 
-| **Module name** | **#** | **Test-case name** | **Autotest name** |
-| ----------------| ----- | ------------------ | ----------------- |
-| [Login](#login) | TC01  |[Login and check main components](#tc01-login-and-check-main-components) | |
-| [Histogram View](#histogram-view) | TC04  |[Hover over a bar](#tc04-hover-over-a-bar) | |
-| [Scatter-plot View](#scatter-plot-view) | TC10  |[Check Attributes and Intervals change](#tc10-check-attributes-and-intervals-change) | |
-| [Chart](#chart)|TC14|[Check Avg fill price and Mid price](#tc14-check-avg-fill-price-and-mid-price)| |
-| [Orders Grid](#orders-grid) | TC46  |[Check columns visibility](#tc46-check-columns-visibility) | |
-| [Grid Sorts & Dashboards](#grid-sorts-dashboards) | TC68  |[Check sort](#tc68-check-sort) | |
+| **Module name**                                   | **#** | **Test-case name**                                                                   | **Autotest name**                                     |
+|---------------------------------------------------|-------|--------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [Login](#login)                                   | TC01  | [Login and check main components](#tc01-login-and-check-main-components)             | 
+| [Histogram View](#histogram-view)                 | TC04  | [Hover over a bar](#tc04-hover-over-a-bar)                                           |                                                  |
+| [Scatter-plot View](#scatter-plot-view)           | TC10  | [Check Attributes and Intervals change](#tc10-check-attributes-and-intervals-change) |                                                       |
+| [Chart](#chart)                                   | TC14  | [Check Avg fill price and Mid price](#tc14-check-avg-fill-price-and-mid-price)       |                                                       |
+| [Orders Grid](#orders-grid)                       | TC46  | [Check columns visibility](#tc46-check-columns-visibility)                           |                                                       |
+| [Grid Sorts & Dashboards](#grid-sorts-dashboards) | TC68  | [Check sort](#tc68-check-sort)                                                       |                                                       |
 
 12. [Summary Dashboard](#summary-dashboard)      
 
